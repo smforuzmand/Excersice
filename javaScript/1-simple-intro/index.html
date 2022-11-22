@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <h1 id="hello">Hello from the begining</h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptas temporibus molestiae./p>
+    <p></p>
+
+    <!-- 
+        <script>
+
+            // Access content
+            // like every hatml tag and attribute here through its id
+            // then we would be able to modify the contents
+            document.getElementById("hello").innerHTML = "I will do  that . I will succeed!"
+            document.getElementById("hello").style.color = "Red"
+            document.getElementById("hello").style.fontSize = "20px"
+            document.write("this is a write added to the document test")
+            // window.alert("alerttttttttt")
+
+
+
+        </script> -->
+
+
+    <script src="index.js"></script>
+    <br />
+    <div id="firstName"></div>
+    <button onclick="document.getElementById('firstName').innerHTML='test name' ">click me to display name</button>
+    <br />
+    <div id="date"></div>
+    <button onclick="document.getElementById('date').innerHTML=Date()">click me to display the time</button>
+    <br />
+
+
+    <div></div>
+    <button onclick="document.getElementById('date').style.display='none'">click me to hide me </button>
+    <br>
+    <button onclick="document.getElementById('date').style.color='Red'">click me to change the color </button>
+
+
+
+
+</body>
+
+</html>
